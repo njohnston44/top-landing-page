@@ -31,7 +31,7 @@ a{
     background: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 100px;
+    padding: 75px 100px;
     gap: 50px;
 }
 
@@ -67,4 +67,46 @@ a{
     width: 20px;
     height: auto;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 250px;
+    gap: 50px;
+}
+
+.information-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.information-chunks{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+.information-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    padding: 0px 50px;
+    
+}
+
+.fake-image{
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3772f6;
+    border-radius: 10px;
 }
